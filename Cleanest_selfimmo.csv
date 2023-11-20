@@ -1,0 +1,158 @@
+No,Incident,Monk_Status,Age,Gender,Current_Status,Month,Year,age_groups,Date,Day
+1,Sichuan,Monk,27,M,Unknown/Custody,Feb,2009,18-30,2009-02-27,27
+2,Sichuan,Monk,21,M,Died,Mar,2011,18-30,2011-03-16,16
+3,Sichuan,Monk,29,M,Died,Aug,2011,18-30,2011-08-15,15
+4,Sichuan,Monk,18,M,Unknown/Custody,Sep,2011,Under 18,2011-09-26,26
+5,Sichuan,Monk,19,M,Unknown/Custody,Sep,2011,18-30,2011-09-26,26
+6,Sichuan,Monk,17,M,Unknown/Custody,Oct,2011,Under 18,2011-10-03,3
+7,Sichuan,Monk,19,M,Died,Nov,2011,18-30,2011-11-07,7
+8,Sichuan,Monk,18,M,Died,Oct,2011,Under 18,2011-10-07,7
+9,Sichuan,Monk,19,M,Died,Oct,2011,18-30,2011-10-15,15
+10,Sichuan,Monk,20,F,Died,Oct,2011,18-30,2011-10-17,17
+11,Sichuan,Monk,38,M,Unknown/Custody,Oct,2011,30-50,2011-10-25,25
+12,Sichuan,Monk,35,F,Died,Nov,2011,30-50,2011-11-03,3
+13,TAR,Monk,40,M,Died,Dec,2011,30-50,2011-12-01,1
+14,Sichuan,Monk,20,M,Died,Dec,2012,18-30,2012-12-06,6
+15,Sichuan,Monk,20,M,Died,Dec,2012,18-30,2012-12-06,6
+16,Qinghai,Monk,40,M,Died,Jan,2012,30-50,2012-01-08,8
+17,Sichuan,Non-Monk,21,M,Died,Jan,2012,18-30,2012-01-14,14
+18,Sichuan,Non-Monk,19,M,Died,Feb,2012,18-30,2012-02-08,8
+19,Qinghai,Monk,42,M,Unknown/Custody,Feb,2012,30-50,2012-02-08,8
+20,Sichuan,Monk,18,F,Died,Feb,2012,Under 18,2012-02-11,11
+21,Sichuan,Monk,19,M,Unknown/Custody,Feb,2012,18-30,2012-02-13,13
+22,Qinghai,Monk,30,M,Died,Feb,2012,18-30,2012-02-17,17
+23,Sichuan,Non-Monk,18,M,Died,Feb,2012,Under 18,2012-02-19,19
+24,Gansu,Non-Monk,20,F,Died,Mar,2012,18-30,2012-03-03,3
+25,Sichuan,Non-Monk,32,F,Died,Mar,2012,30-50,2012-03-04,4
+26,Sichuan,Non-Monk,18,M,Died,Mar,2012,Under 18,2012-03-05,5
+27,Sichuan,Monk,18,M,Died,Mar,2012,Under 18,2012-03-10,10
+28,Qinghai,Monk,34,M,Died,Mar,2012,30-50,2012-03-14,14
+29,Sichuan,Monk,20,M,Died,Mar,2012,18-30,2012-03-16,16
+30,Qinghai,Non-Monk,44,M,Died,Mar,2012,30-50,2012-03-17,17
+31,Sichuan,Monk,20,M,Died,Mar,2012,18-30,2012-03-28,28
+32,Sichuan,Non-Monk,22,M,Died,Mar,2012,18-30,2012-03-30,30
+33,Sichuan,Non-Monk,21,M,Died,Mar,2012,18-30,2012-03-30,30
+34,Sichuan,Monk,47,M,Died,Apr,2012,30-50,2012-04-06,6
+35,Sichuan,Monk,25,F,Died,Apr,2012,18-30,2012-04-06,6
+36,Sichuan,Non-Monk,20,M,Died,Apr,2012,18-30,2012-04-19,19
+37,Sichuan,Non-Monk,20,M,Died,Apr,2012,18-30,2012-04-19,19
+38,TAR,Non-Monk,19,M,Died,May,2012,18-30,2012-05-27,27
+39,TAR,Non-Monk,25,M,Unknown/Custody,May,2012,18-30,2012-05-27,27
+40,Sichuan,Non-Monk,36,F,Died,May,2012,30-50,2012-05-30,30
+41,Qinghai,Non-Monk,64,M,Died,Jun,2012,50+,2012-06-15,15
+42,Qinghai,Non-Monk,22,M,Died,Jun,2012,18-30,2012-06-20,20
+43,Qinghai,Non-Monk,24,M,Died,Jun,2012,18-30,2012-06-20,20
+44,Qinghai,Non-Monk,40,F,Unknown/Custody,Jun,2012,30-50,2012-06-27,27
+45,TAR,Non-Monk,22,M,Died,Jul,2012,18-30,2012-07-07,7
+46,Sichuan,Non-Monk,18,M,Died,Jul,2012,Under 18,2012-07-17,17
+47,Amdo,Monk,21,M,Died,Aug,2012,18-30,2012-08-06,6
+48,Gansu,Non-Monk,26,F,Died,Aug,2012,18-30,2012-08-07,7
+49,Sichuan,Non-Monk,24,M,Died,Aug,2012,18-30,2012-08-10,10
+50,Sichuan,Monk,20,M,Died,Aug,2012,18-30,2012-08-13,13
+51,Sichuan,Monk,21,M,Died,Aug,2012,18-30,2012-08-13,13
+52,Amdo,Monk,18,M,Died,Aug,2012,Under 18,2012-08-27,27
+53,Amdo,Non-Monk,17,M,Died,Aug,2012,Under 18,2012-08-27,27
+54,Beijing,Non-Monk,62,F,Unknown/Custody,Sep,2012,50+,2012-09-13,13
+55,Qinghai,Non-Monk,27,M,Unknown/Custody,Sep,2012,18-30,2012-09-29,29
+56,TAR,Non-Monk,43,M,Died,Oct,2012,30-50,2012-10-04,4
+57,Gansu,Non-Monk,27,M,Died,Oct,2012,18-30,2012-10-06,6
+58,Gansu,Non-Monk,52,M,Died,Oct,2012,50+,2012-10-13,13
+59,Gansu,Non-Monk,27,M,Died,Oct,2012,18-30,2012-10-20,20
+60,Gansu,Non-Monk,NA,M,Died,Oct,2012,NA,2012-10-22,22
+61,Gansu,Non-Monk,57,M,Died,Oct,2012,50+,2012-10-23,23
+62,TAR,Non-Monk,20,M,Died,Oct,2012,18-30,2012-10-25,25
+63,TAR,Non-Monk,25,M,Unknown/Custody,Oct,2012,18-30,2012-10-25,25
+64,Gansu,Non-Monk,24,M,Died,Oct,2012,18-30,2012-10-26,26
+65,Gansu,Non-Monk,23,M,Died,Oct,2012,18-30,2012-10-26,26
+66,Qinghai,Non-Monk,24,M,Died,Nov,2012,18-30,2012-11-04,4
+67,Sichuan,Monk,15,M,Died,Nov,2012,Under 18,2012-11-07,7
+68,Sichuan,Monk,16,M,Unknown/Custody,Nov,2012,Under 18,2012-11-07,7
+69,Sichuan,Monk,16,M,Unknown/Custody,Nov,2012,Under 18,2012-11-07,7
+70,Qinghai,Non-Monk,23,F,Died,Nov,2012,18-30,2012-11-07,7
+71,TAR,Non-Monk,27,M,Died,Nov,2012,18-30,2012-11-07,7
+72,Qinghai,Non-Monk,18,M,Died,Nov,2012,Under 18,2012-11-08,8
+73,Gansu,Non-Monk,19,M,Died,Nov,2012,18-30,2012-11-10,10
+74,Qinghai,Non-Monk,24,M,Died,Nov,2012,18-30,2012-11-12,12
+75,Qinghai,Non-Monk,18,M,Died,Nov,2012,Under 18,2012-11-12,12
+76,Qinghai,Non-Monk,18,M,Died,Nov,2012,Under 18,2012-11-15,15
+77,Qinghai,Non-Monk,23,F,Died,Nov,2012,18-30,2012-11-15,15
+78,Qinghai,Non-Monk,NA,F,Died,Nov,2012,NA,2012-11-17,17
+79,Qinghai,Non-Monk,24,M,Died,Nov,2012,18-30,2012-11-17,17
+80,Qinghai,Non-Monk,25,M,Died,Nov,2012,18-30,2012-11-19,19
+81,Gansu,Non-Monk,34,M,Died,Nov,2012,30-50,2012-11-20,20
+82,Qinghai,Non-Monk,18,M,Died,Nov,2012,Under 18,2012-11-22,22
+83,Gansu,Non-Monk,23,M,Died,Nov,2012,18-30,2012-11-22,22
+84,Qinghai,Non-Monk,29,M,Died,Nov,2012,18-30,2012-11-23,23
+85,Sichuan,Non-Monk,20,M,Unknown/Custody,Nov,2012,18-30,2012-11-26,26
+86,Gansu,Non-Monk,17,F,Died,Nov,2012,Under 18,2012-11-25,25
+87,Gansu,Non-Monk,18,M,Died,Nov,2012,Under 18,2012-11-26,26
+88,Gansu,Non-Monk,24,M,Died,Nov,2012,18-30,2012-11-26,26
+89,Sichuan,Non-Monk,24,M,Died,Nov,2012,18-30,2012-11-27,27
+90,Gansu,Non-Monk,18,M,Died,Nov,2012,Under 18,2012-11-27,27
+91,Gansu,Non-Monk,21,M,Died,Nov,2012,18-30,2012-11-28,28
+92,Gansu,Non-Monk,31,M,Died,Nov,2012,30-50,2012-11-29,29
+93,Sichuan,Non-Monk,29,M,Died,Nov,2012,18-30,2012-11-30,30
+94,Gansu,Non-Monk,NA,M,Unknown/Custody,Dec,2012,NA,2012-12-02,2
+95,Qinghai,Monk,29,M,Died,Dec,2012,18-30,2012-12-03,3
+96,Sichuan,Non-Monk,24,M,Died,Dec,2012,18-30,2012-12-08,8
+97,Gansu,Non-Monk,23,M,Died,Dec,2012,18-30,2012-12-08,8
+98,Qinghai,Non-Monk,17,F,Died,Dec,2012,Under 18,2012-12-09,9
+99,Gansu,Non-Monk,22,M,Died,Jan,2013,18-30,2013-01-12,12
+100,Sichuan,Non-Monk,28,M,Died,Jan,2013,18-30,2013-01-18,18
+101,Gansu,Non-Monk,26,M,Died,Jan,2013,18-30,2013-01-22,22
+102,Sichuan,Monk,37,M,Died,Feb,2013,30-50,2013-02-03,3
+103,Sichuan,Non-Monk,26,M,Died,Feb,2013,18-30,2013-02-13,13
+104,Gansu,Non-Monk,49,M,Died,Feb,2013,30-50,2013-02-17,17
+105,Sichuan,Non-Monk,17,M,Died,Feb,2013,Under 18,2013-02-19,19
+106,Sichuan,Non-Monk,18,M,Died,Feb,2013,Under 18,2013-02-19,19
+107,Sichuan,Monk,NA,M,Died,Feb,2013,NA,2013-02-25,25
+108,Gansu,Non-Monk,20,M,Died,Feb,2013,18-30,2013-02-25,25
+119,Qinghai,Non-Monk,20,M,Died,Feb,2013,18-30,2013-02-24,24
+110,Sichuan,Non-Monk,30,F,Died,Mar,2013,18-30,2013-03-13,13
+111,Sichuan,Monk,28,M,Died,Mar,2013,18-30,2013-03-16,16
+112,Sichuan,Non-Monk,30,F,Died,Mar,2013,18-30,2013-03-24,24
+113,Gansu,Non-Monk,43,M,Died,Mar,2013,30-50,2013-03-25,25
+114,Gansu,Monk,28,M,Died,Mar,2013,18-30,2013-03-26,26
+115,Sichuan,Non-Monk,20,F,Died,Apr,2013,18-30,2013-04-16,16
+116,Sichuan,Monk,20,M,Died,Apr,2013,18-30,2013-04-24,24
+117,Sichuan,Monk,23,M,Died,Apr,2013,18-30,2013-04-24,24
+118,Qinghai,Non-Monk,NA,M,Died,May,2013,NA,2013-05-27,27
+119,Sichuan,Non-Monk,31,F,Died,Jun,2013,30-50,2013-06-11,11
+120,Sichuan,Monk,18,M,Died,Jul,2013,Under 18,2013-07-20,20
+121,Sichuan,Non-Monk,41,M,Died,Sep,2013,30-50,2013-09-28,28
+122,Qinghai,Monk,20,M,Died,Nov,2013,18-30,2013-11-11,11
+123,Sichuan,Non-Monk,30,M,Died,Dec,2013,18-30,2013-12-03,3
+124,Gansu,Monk,44,M,Died,Dec,2013,30-50,2013-12-19,19
+125,Qinghai,Non-Monk,27,M,Died,Feb,2014,18-30,2014-02-05,5
+126,Sichuan,Monk,25,M,Died,Feb,2014,18-30,2014-02-13,13
+127,Sichuan,Monk,23,M,Died,Mar,2014,18-30,2014-03-16,16
+128,Qinghai,Monk,20,M,Died,Mar,2014,18-30,2014-03-16,16
+129,Sichuan,Monk,NA,F,Unknown/Custody,Mar,2014,NA,2014-03-29,29
+130,Sichuan,Non-Monk,32,M,Died,Apr,2014,30-50,2014-04-15,15
+131,Gansu,Non-Monk,22,M,Died,Sep,2014,18-30,2014-09-17,17
+132,Qinghai,Non-Monk,42,M,Unknown/Custody,Sep,2014,30-50,2014-09-16,16
+133,Gansu,Non-Monk,33,M,Died,Dec,2014,30-50,2014-12-16,16
+134,Sichuan,Non-Monk,19,F,Died,Dec,2014,18-30,2014-12-22,22
+135,Sichuan,Monk,32,M,Died,Dec,2014,30-50,2014-12-23,23
+136,Sichuan,Non-Monk,47,F,Died,Mar,2015,30-50,2015-03-05,5
+137,Sichuan,Non-Monk,47,F,Died,Apr,2015,30-50,2015-04-08,8
+138,Sichuan,Non-Monk,45,M,Died,Apr,2015,30-50,2015-04-16,16
+139,Sichuan,Non-Monk,30,M,Died,May,2015,18-30,2015-05-20,20
+140,Gansu,Non-Monk,36,F,Died,May,2015,30-50,2015-05-27,27
+141,Qinghai,Non-Monk,26,M,Died,Jul,2015,18-30,2015-07-09,9
+142,Gansu,Non-Monk,55,F,Died,Aug,2015,50+,2015-08-27,27
+143,TAR,Non-Monk,26,M,Died,Sep,2015,18-30,2015-09-17,17
+144,Sichuan,Monk,NA,M,Died,Feb,2016,NA,2016-02-29,29
+145,Sichuan,Non-Monk,50,F,Died,Mar,2016,30-50,2016-03-23,23
+146,Gansu,Non-Monk,33,M,Died,Dec,2016,30-50,2016-12-08,8
+147,Sichuan,Non-Monk,24,M,Unknown/Custody,Mar,2017,18-30,2017-03-18,18
+148,Sichuan,Non-Monk,30,M,Unknown/Custody,Apr,2017,18-30,2017-04-15,15
+149,Gansu,Non-Monk,16,M,Unknown/Custody,May,2017,Under 18,2017-05-02,2
+150,Qinghai,Non-Monk,24,M,Died,May,2017,18-30,2017-05-18,18
+151,Sichuan,Non-Monk,63,M,Died,Nov,2017,50+,2017-11-26,26
+152,Sichuan,Non-Monk,30,M,Died,Dec,2017,18-30,2017-12-23,23
+153,Sichuan,Non-Monk,44,M,Died,Mar,2018,30-50,2018-03-07,7
+154,Sichuan,Non-Monk,23,M,Died,Nov,2018,18-30,2018-11-04,4
+155,Sichuan,Monk,24,M,Died,Nov,2019,18-30,2019-11-26,26
+156,TAR,Non-Monk,25,M,Died,Feb,2022,18-30,2022-02-25,25
+157,Sichuan,Non-Monk,81,M,Died,Mar,2022,50+,2022-03-27,27

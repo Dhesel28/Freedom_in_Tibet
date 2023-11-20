@@ -22,17 +22,13 @@ def create_plotly_plot(year_filter):
                      template='plotly_dark')
     return fig
 
-# Dataset Loading - Self Immolation
-Selfimmo = pd.read_csv("/Users/dhekha/PycharmProjects/Programming_Language/Freedom_in_Tibet/Cleanest_selfimmo.csv")
-Selfimmo = Selfimmo.rename(columns={'Incident': 'Province'})
-Selfimmo = Selfimmo[Selfimmo['Year'] >= 2013]
-
 # Initialize the Dash app
 app = dash.Dash(__name__)
+server = app.server
 
 # Layout for both visualizations on one page
 app.layout = html.Div(style={'color': 'black', 'padding': '10px', 'text-align': 'center'}, children=[
-    html.H1("Freedom In Tibet Visualization"),
+    html.H1("Combined Visualization Dashboard"),
 
     # Section for Freedom in Tibet Visualization
     html.Div([
@@ -52,14 +48,19 @@ app.layout = html.Div(style={'color': 'black', 'padding': '10px', 'text-align': 
     html.Div([
         dcc.Dropdown(
             id='year-dropdown',
-            options=[{'label': str(year), 'value': year} for year in Selfimmo['Year'].unique()],
-            value=Selfimmo['Year'].max(),  # Set the initial value to the latest year
+            options=[{'label': str(year), 'value': year} for year in Freedom['Year'].unique()],
+            value=Freedom['Year'].max(),  # Set the initial value to the latest year
             multi=False,
             style={'width': '50%'}
         ),
-        dcc.Graph(id='bar-by-province'),
-        dcc.Graph(id='bar-by-age-group'),
-        dcc.Graph(id='bar-by-monk_status'),
+        html.Div([
+            dcc.Graph(id='bar-by-province'),
+            dcc.Graph(id='bar-by-age-group'),
+        ], style={'display': 'flex'}),
+        html.Div([
+            dcc.Graph(id='bar-by-monk_status'),
+            dcc.Graph(id='bar-by-current_status'),
+        ], style={'display': 'flex'}),
     ], style={'width': '48%', 'display': 'inline-block', 'padding': '10px'}),
 ])
 
@@ -92,7 +93,7 @@ def update_graphs_freedom(selected_year):
      Output('bar-by-monk_status', 'figure')],
     [Input('year-dropdown', 'value')])
 def update_graphs(selected_year):
-    filtered_data = Selfimmo[Selfimmo['Year'] == selected_year]
+    filtered_data = Freedom[Freedom['Year'] == selected_year]
     fig1 = px.bar(filtered_data, x='Province', color='Province',
                   title=f'Incidents by Province in {selected_year}',
                   labels={'Province': 'Province', 'Year': 'Year'},

@@ -4,6 +4,10 @@ import dash
 from dash import dcc, html
 from dash.dependencies import Input, Output
 
+# Initialize the Dash app
+app = dash.Dash(__name__)
+server = app.server
+
 # Dataset Loading - Freedom
 Freedom = pd.read_csv("Cleanest_Freedom.csv")
 
@@ -27,9 +31,7 @@ Selfimmo = pd.read_csv("Cleanest_selfimmo.csv")
 Selfimmo = Selfimmo.rename(columns={'Incident': 'Province'})
 Selfimmo = Selfimmo[Selfimmo['Year'] >= 2013]
 
-# Initialize the Dash app
-app = dash.Dash(__name__)
-server = app.server
+
 
 # Layout for both visualizations on one page
 app.layout = html.Div(style={'color': 'black', 'padding': '10px', 'text-align': 'center'}, children=[

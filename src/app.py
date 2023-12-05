@@ -9,7 +9,7 @@ app = dash.Dash(__name__)
 server = app.server
 
 # Dataset Loading - Freedom
-Freedom = pd.read_csv("Cleanest_Freedom.csv")
+Freedom = pd.read_csv("/Users/dhekha/Freedom_in_Tibet/src/Cleanest_Freedom.csv")
 
 border_issues = Freedom[Freedom['Country/Territory'].isin(["Philippines", "Vietnam", "Japan", "Nepal", "Bhutan",
                                                            "India", "Indonesia", "Malaysia", "Laos", "South Korea",
@@ -27,7 +27,8 @@ def create_plotly_plot(year_filter):
     return fig
 
 # Dataset Loading - Self Immolation
-Selfimmo = pd.read_csv("Cleanest_selfimmo.csv")
+
+Selfimmo = pd.read_csv("/Users/dhekha/Freedom_in_Tibet/src/Cleaned_selfimmo.csv")
 Selfimmo = Selfimmo.rename(columns={'Incident': 'Province'})
 Selfimmo = Selfimmo[Selfimmo['Year'] >= 2013]
 

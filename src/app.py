@@ -8,7 +8,6 @@ from dash.dependencies import Input, Output
 app = dash.Dash(__name__)
 server = app.server
 
-
 # Dataset Loading - Freedom
 Freedom = pd.read_csv("Cleanest_Freedom.csv")
 
@@ -32,37 +31,36 @@ Selfimmo = pd.read_csv("Cleaned_selfimmo.csv")
 Selfimmo = Selfimmo.rename(columns={'Incident': 'Province'})
 Selfimmo = Selfimmo[Selfimmo['Year'] >= 2013]
 
-
 # Layout for the entire app
 app.layout = html.Div([
-    html.H1("Freedom In Tibet", style={'text-align': 'center', 'font-size': '58px'}),
+    html.H1("Freedom In Tibet", style={'text-align': 'center', 'font-size': '2.5em'}),
     html.Div([
         dcc.Tabs(id='tabs', value='tab-home', children=[
             dcc.Tab(label='Overview', value='tab-home'),
             dcc.Tab(label='Freedom Visualization', value='tab-freedom'),
             dcc.Tab(label='Self Immolation Visualization', value='tab-self-immolation'),
-        ], vertical=True, style={'height': '100vh', 'width': '20%', 'position': 'fixed', 'font-size': '38px'}),
+        ], vertical=True, style={'height': '100vh', 'width': '20%', 'position': 'fixed', 'font-size': '1.5em'}),
     ]),
     html.Div(id='tabs-content', style={'width': '75%', 'float': 'right', 'margin-left': '40px', 'padding-top': '20px'}),
 ])
 
 # Overview content
 overview_content = html.Div([
-    html.H2("Overview", style={'font-size': '48px'}),
+    html.H2("Overview", style={'font-size': '2em'}),
     html.P(
         "Tibet, a region situated on the Tibetan Plateau in Asia, has a rich cultural and historical heritage. Over the years, Tibet has faced significant challenges, particularly concerning political and cultural freedom, largely influenced by geopolitical issues. The complexities surrounding Tibet's freedom involve historical, cultural, and political dimensions, with global concerns about human rights violations. "
         "One of the contentious issues is China's presence in Tibet, which has led to reports of restrictions on religious practices, censorship, and limitations on cultural autonomy. The struggle for freedom and autonomy in Tibet is a global concern, drawing attention to issues of human rights and the preservation of Tibetan culture and identity.",
-        style={'font-size': '28px'}
+        style={'font-size': '1.2em'}
     ),
     html.P(
         "The international community has expressed concerns about the lack of political and cultural freedoms in Tibet, emphasizing the need for dialogue and diplomatic solutions to address these challenges. The situation in Tibet continues to evolve, with ongoing efforts to raise awareness and advocate for the protection of human rights and freedom in the region. "
         "The issue of self-immolation in Tibet is a tragic and alarming aspect of the struggle for freedom. Self-immolation involves individuals, often monks and nuns, setting themselves on fire as a form of protest against perceived injustices, restrictions on religious practices, and the suppression of Tibetan culture. These acts are extreme and desperate measures to draw attention to the challenges faced by Tibetans.",
-        style={'font-size': '28px'}
+        style={'font-size': '1.2em'}
     ),
     html.P(
         "The self-immolation incidents have been concentrated in Tibetan areas and are often linked to grievances against Chinese policies. The individuals who undertake self-immolation often leave behind messages expressing their concerns about freedom, human rights abuses, and the desire for cultural and religious autonomy. "
         "The international community has responded to these incidents with expressions of concern and calls for a peaceful resolution to the issues facing Tibet. These acts of self-immolation highlight the severity of the challenges faced by Tibetans and the urgency of addressing underlying causes to ensure the protection of human rights and freedom in the region.",
-        style={'font-size': '28px'}
+        style={'font-size': '1.2em'}
     ),
     html.Div([
         html.Img(src="/assets/Tibet_map.png", style={'width': '45%', 'display': 'inline-block'}),
@@ -77,18 +75,18 @@ def update_tab(selected_tab):
         return overview_content
     elif selected_tab == 'tab-freedom':
         return html.Div([
-            html.H2("Freedom In Tibet Visualization", style={'font-size': '48px'}),
+            html.H2("Freedom In Tibet Visualization", style={'font-size': '2em'}),
             html.P(
                 "Explore visualizations related to freedom in Tibet. The graphs provide insights into scores, trends, "
                 "and comparisons among countries. Use the dropdown to select the year of interest.",
-                style={'font-size': '28px'}
+                style={'font-size': '1.2em'}
             ),
             dcc.Dropdown(
                 id='year-dropdown-freedom',
                 options=[{'label': str(year), 'value': year} for year in Freedom['Year'].unique()],
                 value=Freedom['Year'].max(),
                 multi=False,
-                style={'width': '50%', 'font-size': '28px'}
+                style={'width': '50%', 'font-size': '1.2em'}
             ),
             dcc.Graph(id='freedom-scatter-plot'),
             dcc.Graph(id='freedom-line-plot'),
@@ -96,18 +94,18 @@ def update_tab(selected_tab):
         ])
     elif selected_tab == 'tab-self-immolation':
         return html.Div([
-            html.H2("Self Immolation Incidents Visualization", style={'font-size': '48px'}),
+            html.H2("Self Immolation Incidents Visualization", style={'font-size': '2em'}),
             html.P(
                 "Explore visualizations related to self-immolation incidents in Tibet. The graphs provide insights into "
                 "incidents by province, age group, and monk status. Use the dropdown to select the year of interest.",
-                style={'font-size': '28px'}
+                style={'font-size': '1.2em'}
             ),
             dcc.Dropdown(
                 id='year-dropdown',
                 options=[{'label': str(year), 'value': year} for year in Selfimmo['Year'].unique()],
                 value=Selfimmo['Year'].max(),
                 multi=False,
-                style={'width': '50%', 'font-size': '28px'}
+                style={'width': '50%', 'font-size': '1.2em'}
             ),
             dcc.Graph(id='bar-by-province'),
             dcc.Graph(id='bar-by-age-group'),

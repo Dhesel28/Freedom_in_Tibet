@@ -28,7 +28,7 @@ def create_plotly_plot(year_filter):
     return fig
 
 # Dataset Loading - Self Immolation
-Selfimmo = pd.read_csv("Cleanest_selfimmo.csv")
+Selfimmo = pd.read_csv("Cleaned_selfimmo.csv")
 Selfimmo = Selfimmo.rename(columns={'Incident': 'Province'})
 Selfimmo = Selfimmo[Selfimmo['Year'] >= 2013]
 
